@@ -1,0 +1,134 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L EE514_Board:NC7SZ04 U?
+U 1 1 61A0F24F
+P 5500 3850
+F 0 "U?" H 5600 4100 50  0000 L CNN
+F 1 "NC7SZ04" H 5600 4000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5500 3600 50  0001 C CNN
+F 3 "https://rocelec.widen.net/view/pdf/vg5irfcitj/ONSM-S-A0003590433-1.pdf?t.download=true&u=5oefqw" H 5500 3850 50  0001 C CNN
+F 4 "NC7SZ04M5XCT-ND" H 6100 3650 50  0001 C CNN "Digi-Key PN"
+	1    5500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A101BF
+P 5500 4200
+F 0 "#PWR?" H 5500 3950 50  0001 C CNN
+F 1 "GND" H 5505 4027 50  0000 C CNN
+F 2 "" H 5500 4200 50  0001 C CNN
+F 3 "" H 5500 4200 50  0001 C CNN
+	1    5500 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4200 5500 4050
+Wire Wire Line
+	5500 3650 5500 3450
+$Comp
+L power:+5V #PWR?
+U 1 1 61A107C8
+P 5500 3450
+F 0 "#PWR?" H 5500 3300 50  0001 C CNN
+F 1 "+5V" H 5515 3623 50  0000 C CNN
+F 2 "" H 5500 3450 50  0001 C CNN
+F 3 "" H 5500 3450 50  0001 C CNN
+	1    5500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3850 6250 3850
+Wire Wire Line
+	6250 3850 6250 2650
+$Comp
+L Device:R_US R?
+U 1 1 61A11308
+P 4900 2650
+F 0 "R?" V 4695 2650 50  0000 C CNN
+F 1 "100" V 4786 2650 50  0000 C CNN
+F 2 "" V 4940 2640 50  0001 C CNN
+F 3 "~" H 4900 2650 50  0001 C CNN
+F 4 "CR0603-FX-1000ELFCT-ND" H 4900 2650 50  0001 C CNN "Digi-Key PN"
+	1    4900 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2650 4400 2650
+Wire Wire Line
+	4400 2650 4400 3850
+Wire Wire Line
+	4400 3850 5300 3850
+$Comp
+L Device:C C?
+U 1 1 61A16206
+P 4400 4250
+F 0 "C?" H 4515 4296 50  0000 L CNN
+F 1 "0.1nF" H 4515 4205 50  0000 L CNN
+F 2 "" H 4438 4100 50  0001 C CNN
+F 3 "~" H 4400 4250 50  0001 C CNN
+F 4 "399-C0603C101G1HAC7867CT-ND" H 4400 4250 50  0001 C CNN "Digi-Key PN"
+	1    4400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A16D78
+P 4400 4550
+F 0 "#PWR?" H 4400 4300 50  0001 C CNN
+F 1 "GND" H 4405 4377 50  0000 C CNN
+F 2 "" H 4400 4550 50  0001 C CNN
+F 3 "" H 4400 4550 50  0001 C CNN
+	1    4400 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4550 4400 4400
+Wire Wire Line
+	4400 4100 4400 3850
+Connection ~ 4400 3850
+Wire Wire Line
+	5050 2650 5400 2650
+$Comp
+L Device:R_POT_US RV?
+U 1 1 61A129EF
+P 5550 2650
+F 0 "RV?" V 5345 2650 50  0000 C CNN
+F 1 "R_POT_US" V 5436 2650 50  0000 C CNN
+F 2 "irex_Potentiometer_THT:Potentiometer_Bourns_PV36W_Vertical" H 5550 2650 50  0001 C CNN
+F 3 "~" H 5550 2650 50  0001 C CNN
+F 4 "490-2874-ND" V 5437 2650 50  0001 C CNN "Digi-Key PN"
+	1    5550 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 2800 5550 2900
+Wire Wire Line
+	5550 2900 5850 2900
+Wire Wire Line
+	5850 2900 5850 2650
+Wire Wire Line
+	6250 2650 5850 2650
+Wire Wire Line
+	5850 2650 5700 2650
+Connection ~ 5850 2650
+Wire Wire Line
+	6250 3850 6700 3850
+Connection ~ 6250 3850
+Text HLabel 6700 3850 2    50   Output ~ 0
+10MHz_REF_OUT
+$EndSCHEMATC

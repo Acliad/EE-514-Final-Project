@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADF411x
+D 0.55-3.0GHz integer-N PLL, TSSOP-16
+K integer-N PLL
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4158.pdf
+$ENDCMP
+#
 $CMP BPF-2
 D Generic 2-pin band-pass-filter symbol
 K filter bandpass band-pass band
@@ -15,6 +21,12 @@ $CMP C_interdigital
 D Interdigital grounded capacitor
 K cap capacitor interdigital
 F ~
+$ENDCMP
+#
+$CMP NC7SZ04
+D Single Schmitt-Trigger Inverter, SOT-23
+K Inverter Schmitt Trigger
+F https://rocelec.widen.net/view/pdf/vg5irfcitj/ONSM-S-A0003590433-1.pdf?t.download=true&u=5oefqw
 $ENDCMP
 #
 $CMP Q_NPN_BECE

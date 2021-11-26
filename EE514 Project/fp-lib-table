@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "EE514 Board")(type KiCad)(uri "${KIPRJMOD}/libraries/EE514 Board.pretty")(options "")(descr ""))
+  (lib (name "EE514 Board")(type KiCad)(uri "${KIPRJMOD}/libraries/Footprints/EE514 Board.pretty")(options "")(descr ""))
+  (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/libraries/Footprints/teensy.pretty)(options "")(descr ""))
 )

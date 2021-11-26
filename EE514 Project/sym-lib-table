@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name EE514_Board)(type Legacy)(uri "${KIPRJMOD}/libraries/Symbols/EE514 Board.lib")(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/libraries/Symbols/teensy.lib)(options "")(descr ""))
 )
