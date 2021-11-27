@@ -1,0 +1,53 @@
+References,Value,Digi-Key PN,Quantity Per PCB,Footprint,Datasheet
+C305,5.4pF,399-16205-1-ND,1,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"C102, C104, C105",10pF,399-C0603C100J3HAC7867CT-ND,3,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+C304,15pF,311-3878-1-ND,1,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"C107, C110, C303, C306",30pF,311-3352-1-ND,4,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"C301, C302, C307",36pF,CC0603GRNPO9BN360,3,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+C108,56pF,399-C0603C560J5GAC7867CT-ND,1,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"C201, C202, C402",0.1nF,399-C0603C101G1HAC7867CT-ND,3,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+C109,1.3nF,399-15364-1-ND,1,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"C401, C403",12nF,399-C0603C123K5RAC7867CT-ND,2,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"C101, C103, C106",0.1uF,399-C0603C104Z3VAC7867CT-ND,3,C_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+D101,LED,754-1534-1-ND,1,LED_Kingbright_AA3528V_3.5x2.8mm_handsolder,~
+D102,LED,754-1528-1-ND,1,LED_Kingbright_AA3528V_3.5x2.8mm_handsolder,~
+D301,SMV1276-079LF,863-1730-1-ND,1,D_SOD-523,~
+J102,Conn_01x04,732-5316-ND,1,PinHeader_1x04_P2.54mm_Vertical,~
+J103,SMA,WM17359-ND,1,SMA_Molex_73251-1153_EdgeMount_Horizontal, ~
+J101,Screw_Terminal_01x02,A98333-ND,1,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,~
+L301,1.6nH,490-15806-1-ND,1,L_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"L302, L303",39nH,732-7447860139GCT-ND,2,L_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+Q301,BFP620,BFP620H7764XTSA1CT-ND,1,SOT-343_2.0x1.25mm_P1.3mm,~
+R407,18,311-18.0HRCT-ND,1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R106,51,311-51.0HRCT-ND,0,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"R201, R301",100,311-100HRCT-ND,2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R406,124,311-124HRCT-ND,1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+"R101, R102",1k,311-1.00KHRCT-ND,2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R401,1.3k,311-1.30KHRCT-ND,1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R402,1.5k,311-1.50KHRCT-ND,1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R403,3.3k,311-3.30KHRCT-ND,1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R103,10k,311-10.0KHRCT-ND,0,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R104,46.9k,311-47.0KHRCT-ND,1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R405,75k,311-75.0KHRCT-ND,1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R404,110k,13-AC0603FR-07110KLCT-ND,1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+R105,220k,311-220KHRCT-ND,1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
+RV201,1k,490-2874-ND,1,Potentiometer_Bourns_PV36W_Vertical,~
+U101,ADF4117,ADF4117BRUZ-RL7CT-ND,1,TSSOP-16_4.4x5mm_P0.65mm,https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4158.pdf
+U201,NC7SZ04,NC7SZ04M5XCT-ND,1,SOT-23-5,https://rocelec.widen.net/view/pdf/vg5irfcitj/ONSM-S-A0003590433-1.pdf?t.download=true&u=5oefqw
+U401,TLC2201,296-7061-1-ND,1,SOIC-8_3.9x4.9mm_P1.27mm,https://www.ti.com/lit/ds/symlink/tlc2201.pdf?ts=1637267525507&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLC2201
+
+
+
+
+
+Component Groups:,36
+Component Count:,51
+Fitted Components:,49
+Number of PCBs:,1
+Total components:,49
+Schematic Version:,0
+Schematic Date:,
+PCB Variant:,normal
+BoM Date:,"Friday, November 26, 2021 at 11:04:15 PM"
+Schematic Source:,EE514 Project.sch
+KiCad Version:,Eeschema (5.1.6-0-10_14)

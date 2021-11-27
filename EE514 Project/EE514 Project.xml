@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/isaac/Library/Mobile Documents/com~apple~CloudDocs/School/2021/Fall/EE514/Final Project/EE514 Final Project/EE514 Project/EE514 Project.sch</source>
+    <date>Friday, November 26, 2021 at 11:04:15 PM</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>33-centimeter Band PLL</title>
+        <company/>
+        <rev>0</rev>
+        <date/>
+        <source>EE514 Project.sch</source>
+        <comment number="1" value="Engineers: Douglas Zuercher &amp; Isaac Rex"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Reference Oscillator/" tstamps="/61A0F1B4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Reference_Oscillator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/VCO/" tstamps="/61ADF09C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VCO.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Bias_Regulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>ADF4117</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4158.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">ADF4117BRUZ-RL7CT-ND</field>
+      </fields>
+      <libsource lib="EE514_Board" part="ADF411x" description="0.55-3.0GHz integer-N PLL, TSSOP-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A1B7BF</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>10pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C100J3HAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A1D7BB</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>0.1uF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C104Z3VAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A1E461</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>10pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C100J3HAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A20F4E</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>0.1uF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C104Z3VAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A20F54</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>10pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C100J3HAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A3A2C5</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>0.1uF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C104Z3VAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A3A2CB</tstamp>
+    </comp>
+    <comp ref="JP102">
+      <value>Jumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A42FE0</tstamp>
+    </comp>
+    <comp ref="TP102">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A46DA4</tstamp>
+    </comp>
+    <comp ref="JP101">
+      <value>Jumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A51D60</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>10k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="BOM">DNU</field>
+        <field name="Digi-Key PN">311-10.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A8C8CB</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>1k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-1.00KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A9B462</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>LED</value>
+      <footprint>irex_LED_SMD:LED_Kingbright_AA3528V_3.5x2.8mm_handsolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">754-1528-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A9C560</tstamp>
+    </comp>
+    <comp ref="TP101">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AA2078</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>56pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C560J5GAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AB2345</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>220k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-220KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ABF0AD</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>1.3nF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-15364-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AB72D2</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>46.9k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-47.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AB4179</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>51</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="BOM">DNU</field>
+        <field name="Digi-Key PN">311-51.0HRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A4E984</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>30pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-3352-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A53FF5</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>30pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-3352-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A56B7E</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>SMA</value>
+      <footprint>Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">WM17359-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A656BE</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">A98333-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A7FD28</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>1k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-1.00KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF2C21</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>LED</value>
+      <footprint>irex_LED_SMD:LED_Kingbright_AA3528V_3.5x2.8mm_handsolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">754-1534-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AF2C27</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B09386</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B09AE9</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B09F89</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B0A3CA</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">732-5316-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A80465</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>NC7SZ04</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://rocelec.widen.net/view/pdf/vg5irfcitj/ONSM-S-A0003590433-1.pdf?t.download=true&amp;u=5oefqw</datasheet>
+      <fields>
+        <field name="Digi-Key PN">NC7SZ04M5XCT-ND</field>
+      </fields>
+      <libsource lib="EE514_Board" part="NC7SZ04" description="Single Schmitt-Trigger Inverter, SOT-23"/>
+      <sheetpath names="/Reference Oscillator/" tstamps="/61A0F1B4/"/>
+      <tstamp>61A0F24F</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>100</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-100HRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/Reference Oscillator/" tstamps="/61A0F1B4/"/>
+      <tstamp>61A11308</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>0.1nF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C101G1HAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reference Oscillator/" tstamps="/61A0F1B4/"/>
+      <tstamp>61A16206</tstamp>
+    </comp>
+    <comp ref="RV201">
+      <value>1k</value>
+      <footprint>irex_Potentiometer_THT:Potentiometer_Bourns_PV36W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">490-2874-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/Reference Oscillator/" tstamps="/61A0F1B4/"/>
+      <tstamp>61A129EF</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>0.1nF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C101G1HAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Reference Oscillator/" tstamps="/61A0F1B4/"/>
+      <tstamp>61A8CF2C</tstamp>
+    </comp>
+    <comp ref="TP201">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Reference Oscillator/" tstamps="/61A0F1B4/"/>
+      <tstamp>61BAAEB4</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>SMV1276-079LF</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">863-1730-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="D_Capacitance_ALT" description="Variable capacitance diode, filled shape"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61ADF808</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>36pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">CC0603GRNPO9BN360</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AE13A4</tstamp>
+    </comp>
+    <comp ref="L302">
+      <value>39nH</value>
+      <footprint>EE514 Board:L_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">732-7447860139GCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AE2002</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>30pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-3352-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AE3C3F</tstamp>
+    </comp>
+    <comp ref="L301">
+      <value>1.6nH</value>
+      <footprint>EE514 Board:L_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">490-15806-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AE96B2</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>36pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">CC0603GRNPO9BN360</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AEA342</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>15pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-3878-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AEABD7</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>5.4pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-16205-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AEB397</tstamp>
+    </comp>
+    <comp ref="Q301">
+      <value>BFP620</value>
+      <footprint>EE514 Board:SOT-343_2.0x1.25mm_P1.3mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">BFP620H7764XTSA1CT-ND</field>
+      </fields>
+      <libsource lib="EE514_Board" part="Q_NPN_BECE" description="NPN transistor, base/emitter/collector/emitter"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AECED0</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>100</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-100HRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AF40A8</tstamp>
+    </comp>
+    <comp ref="C307">
+      <value>36pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">CC0603GRNPO9BN360</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AF8460</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>30pF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-3352-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AFB6DF</tstamp>
+    </comp>
+    <comp ref="L303">
+      <value>39nH</value>
+      <footprint>EE514 Board:L_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">732-7447860139GCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/VCO/" tstamps="/61ADF09C/"/>
+      <tstamp>61AFD114</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>TLC2201</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlc2201.pdf?ts=1637267525507&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLC2201</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-7061-1-ND</field>
+      </fields>
+      <libsource lib="EE514_Board" part="TLC2201" description="Single 1.8V, low nois, precision, CMOS Operational Amplifiers,SOIC-8"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A1533A</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>0.1nF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C101G1HAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A174F4</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>3.3k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-3.30KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A18935</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>1.3k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-1.30KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A1A117</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>1.5k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-1.50KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A1AA90</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>12nF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C123K5RAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A1D672</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>110k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">13-AC0603FR-07110KLCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A1E9F0</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>75k</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-75.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A1FD8F</tstamp>
+    </comp>
+    <comp ref="R406">
+      <value>124</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-124HRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A25F94</tstamp>
+    </comp>
+    <comp ref="R407">
+      <value>18</value>
+      <footprint>EE514 Board:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">311-18.0HRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A26870</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>12nF</value>
+      <footprint>EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">399-C0603C123K5RAC7867CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/VCO/Bias Regulator/" tstamps="/61ADF09C/61B10885/"/>
+      <tstamp>61A2745B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Capacitance_ALT">
+      <description>Variable capacitance diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Capacitance_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EE514_Board" part="ADF411x">
+      <description>0.55-3.0GHz integer-N PLL, TSSOP-16</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4158.pdf</docs>
+      <footprints>
+        <fp>LFCSP*1EP*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADF411x</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FLo" type="output"/>
+        <pin num="2" name="CP" type="output"/>
+        <pin num="3" name="CPGND" type="power_in"/>
+        <pin num="4" name="AGND" type="power_in"/>
+        <pin num="5" name="RFIN_B" type="input"/>
+        <pin num="6" name="RFIN_A" type="input"/>
+        <pin num="7" name="AVDD" type="power_in"/>
+        <pin num="8" name="REFIN" type="input"/>
+        <pin num="9" name="DGND" type="power_in"/>
+        <pin num="10" name="CE" type="input"/>
+        <pin num="11" name="CLK" type="input"/>
+        <pin num="12" name="DATA" type="input"/>
+        <pin num="13" name="LE" type="input"/>
+        <pin num="14" name="MUXOUT" type="output"/>
+        <pin num="15" name="DVDD" type="power_in"/>
+        <pin num="16" name="VP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EE514_Board" part="NC7SZ04">
+      <description>Single Schmitt-Trigger Inverter, SOT-23</description>
+      <docs>https://rocelec.widen.net/view/pdf/vg5irfcitj/ONSM-S-A0003590433-1.pdf?t.download=true&amp;u=5oefqw</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NC7SZ04</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="EE514_Board" part="Q_NPN_BECE">
+      <description>NPN transistor, base/emitter/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BECE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EE514_Board" part="TLC2201">
+      <description>Single 1.8V, low nois, precision, CMOS Operational Amplifiers,SOIC-8</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlc2201.pdf?ts=1637267525507&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLC2201</docs>
+      <footprints>
+        <fp>SOIC*8*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC2201</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Users/isaac/KiCad/Libraries/Official KiCad Library/kicad-symbols/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Users/isaac/KiCad/Libraries/Official KiCad Library/kicad-symbols/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Users/isaac/KiCad/Libraries/Official KiCad Library/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="EE514_Board">
+      <uri>/Users/isaac/Library/Mobile Documents/com~apple~CloudDocs/School/2021/Fall/EE514/Final Project/EE514 Final Project/EE514 Project/libraries/Symbols/EE514 Board.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Users/isaac/KiCad/Libraries/Official KiCad Library/kicad-symbols/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Users/isaac/KiCad/Libraries/Official KiCad Library/kicad-symbols/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R103-Pad1)">
+      <node ref="U101" pin="1"/>
+      <node ref="R103" pin="1"/>
+    </net>
+    <net code="2" name="/LOCKED">
+      <node ref="U101" pin="14"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C107-Pad1)">
+      <node ref="C107" pin="1"/>
+      <node ref="U101" pin="5"/>
+    </net>
+    <net code="4" name="/Reference Oscillator/10MHz_REF_OUT">
+      <node ref="U101" pin="8"/>
+      <node ref="RV201" pin="2"/>
+      <node ref="RV201" pin="1"/>
+      <node ref="U201" pin="4"/>
+      <node ref="TP201" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="U101" pin="9"/>
+      <node ref="C104" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="R404" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="U201" pin="3"/>
+      <node ref="R402" pin="2"/>
+      <node ref="J102" pin="1"/>
+      <node ref="R103" pin="2"/>
+      <node ref="U101" pin="4"/>
+      <node ref="U101" pin="3"/>
+      <node ref="D102" pin="1"/>
+      <node ref="C402" pin="2"/>
+      <node ref="H102" pin="1"/>
+      <node ref="H104" pin="1"/>
+      <node ref="H103" pin="1"/>
+      <node ref="C108" pin="2"/>
+      <node ref="H101" pin="1"/>
+      <node ref="U401" pin="4"/>
+      <node ref="C109" pin="2"/>
+      <node ref="D101" pin="1"/>
+      <node ref="C306" pin="1"/>
+      <node ref="R106" pin="2"/>
+      <node ref="R301" pin="2"/>
+      <node ref="C305" pin="2"/>
+      <node ref="D301" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="L301" pin="2"/>
+      <node ref="C303" pin="2"/>
+      <node ref="J103" pin="2"/>
+      <node ref="J101" pin="2"/>
+    </net>
+    <net code="6" name="+5V">
+      <node ref="J101" pin="1"/>
+      <node ref="R101" pin="2"/>
+      <node ref="U401" pin="7"/>
+      <node ref="U101" pin="7"/>
+      <node ref="C402" pin="1"/>
+      <node ref="U101" pin="15"/>
+      <node ref="R401" pin="1"/>
+      <node ref="JP101" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="U201" pin="5"/>
+      <node ref="JP102" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="R406" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="R407" pin="1"/>
+    </net>
+    <net code="7" name="Net-(JP101-Pad2)">
+      <node ref="JP101" pin="2"/>
+      <node ref="U101" pin="10"/>
+    </net>
+    <net code="8" name="/LE_PLL">
+      <node ref="J102" pin="4"/>
+      <node ref="U101" pin="13"/>
+    </net>
+    <net code="9" name="/DATA_PLL">
+      <node ref="J102" pin="3"/>
+      <node ref="U101" pin="12"/>
+    </net>
+    <net code="10" name="/CLK_PLL">
+      <node ref="U101" pin="11"/>
+      <node ref="J102" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D102-Pad2)">
+      <node ref="TP101" pin="1"/>
+      <node ref="D102" pin="2"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C109-Pad1)">
+      <node ref="R104" pin="2"/>
+      <node ref="C109" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C110-Pad2)">
+      <node ref="U101" pin="6"/>
+      <node ref="C110" pin="2"/>
+    </net>
+    <net code="14" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="15" name="/Vp">
+      <node ref="JP102" pin="2"/>
+      <node ref="TP102" pin="1"/>
+      <node ref="C106" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="U101" pin="16"/>
+    </net>
+    <net code="16" name="/CP_OUT">
+      <node ref="R104" pin="1"/>
+      <node ref="R105" pin="2"/>
+      <node ref="U101" pin="2"/>
+      <node ref="C108" pin="1"/>
+    </net>
+    <net code="17" name="/V_TUNE">
+      <node ref="R105" pin="1"/>
+      <node ref="C301" pin="2"/>
+      <node ref="D301" pin="1"/>
+    </net>
+    <net code="18" name="/RF_OUT">
+      <node ref="J103" pin="1"/>
+      <node ref="C110" pin="1"/>
+      <node ref="C307" pin="1"/>
+      <node ref="R106" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U201-Pad1)">
+      <node ref="U201" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R201-Pad1)">
+      <node ref="RV201" pin="3"/>
+      <node ref="R201" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C201-Pad1)">
+      <node ref="U201" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="C201" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C301-Pad1)">
+      <node ref="C301" pin="1"/>
+      <node ref="L301" pin="1"/>
+      <node ref="C302" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C302-Pad1)">
+      <node ref="C302" pin="1"/>
+      <node ref="C304" pin="1"/>
+      <node ref="Q301" pin="1"/>
+      <node ref="L302" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C304-Pad2)">
+      <node ref="C307" pin="2"/>
+      <node ref="Q301" pin="4"/>
+      <node ref="Q301" pin="2"/>
+      <node ref="R301" pin="1"/>
+      <node ref="C305" pin="1"/>
+      <node ref="C304" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C306-Pad2)">
+      <node ref="C306" pin="2"/>
+      <node ref="Q301" pin="3"/>
+      <node ref="L303" pin="2"/>
+    </net>
+    <net code="26" name="/VCO/Bias Regulator/V_BIAS_COLLECTOR">
+      <node ref="L303" pin="1"/>
+      <node ref="C403" pin="2"/>
+      <node ref="R406" pin="2"/>
+      <node ref="R405" pin="1"/>
+    </net>
+    <net code="27" name="/VCO/V_BIAS_BASE">
+      <node ref="L302" pin="2"/>
+      <node ref="R403" pin="1"/>
+      <node ref="C303" pin="1"/>
+    </net>
+    <net code="28" name="Net-(U401-Pad1)">
+      <node ref="U401" pin="1"/>
+    </net>
+    <net code="29" name="Net-(U401-Pad5)">
+      <node ref="U401" pin="5"/>
+    </net>
+    <net code="30" name="Net-(U401-Pad8)">
+      <node ref="U401" pin="8"/>
+    </net>
+    <net code="31" name="Net-(C401-Pad1)">
+      <node ref="C401" pin="1"/>
+      <node ref="U401" pin="6"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C401-Pad2)">
+      <node ref="R401" pin="2"/>
+      <node ref="R402" pin="1"/>
+      <node ref="U401" pin="2"/>
+      <node ref="C401" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R404-Pad1)">
+      <node ref="R405" pin="2"/>
+      <node ref="R404" pin="1"/>
+      <node ref="U401" pin="3"/>
+    </net>
+    <net code="34" name="Net-(C403-Pad1)">
+      <node ref="R407" pin="2"/>
+      <node ref="C403" pin="1"/>
+    </net>
+  </nets>
+</export>
