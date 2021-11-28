@@ -308,7 +308,7 @@ Wire Wire Line
 	7150 6400 7250 6400
 Connection ~ 7050 6400
 Wire Wire Line
-	5300 5800 5750 5800
+	5300 5800 6450 5800
 $Comp
 L Jumper:Jumper_2_Bridged JP101
 U 1 1 61A51D60
@@ -343,6 +343,18 @@ Text Label 5900 5200 0    50   ~ 0
 DATA_PLL
 Text Label 5900 5100 0    50   ~ 0
 CLK_PLL
+$Comp
+L Connector_Generic:Conn_01x03 J102
+U 1 1 61A80465
+P 3300 5200
+F 0 "J102" H 3300 5450 50  0000 C CNN
+F 1 "Conn_01x03" H 3218 5426 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3300 5200 50  0001 C CNN
+F 3 "~" H 3300 5200 50  0001 C CNN
+F 4 "732-5316-ND" H 3300 5200 50  0001 C CNN "Digi-Key PN"
+	1    3300 5200
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	3500 5300 6450 5300
 Wire Wire Line
@@ -544,7 +556,7 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	12250 5850 12350 5850
 Text Notes 12450 5400 0    50   ~ 0
-VCO input capacitance ~~5pF
+VCO input capacitance
 $Sheet
 S 12500 4500 950  600 
 U 61ADF09C
@@ -804,7 +816,7 @@ U 1 1 61B09386
 P 1200 8700
 F 0 "H101" H 1300 8703 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1300 8658 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1200 8700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1200 8700 50  0001 C CNN
 F 3 "~" H 1200 8700 50  0001 C CNN
 	1    1200 8700
 	1    0    0    -1  
@@ -815,7 +827,7 @@ U 1 1 61B09AE9
 P 2100 8700
 F 0 "H103" H 2200 8703 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2200 8658 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 2100 8700 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2100 8700 50  0001 C CNN
 F 3 "~" H 2100 8700 50  0001 C CNN
 	1    2100 8700
 	1    0    0    -1  
@@ -826,7 +838,7 @@ U 1 1 61B09F89
 P 2100 9400
 F 0 "H104" H 2200 9403 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2200 9358 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 2100 9400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2100 9400 50  0001 C CNN
 F 3 "~" H 2100 9400 50  0001 C CNN
 	1    2100 9400
 	1    0    0    -1  
@@ -837,7 +849,7 @@ U 1 1 61B0A3CA
 P 1200 9400
 F 0 "H102" H 1300 9403 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1300 9358 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 1200 9400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1200 9400 50  0001 C CNN
 F 3 "~" H 1200 9400 50  0001 C CNN
 	1    1200 9400
 	1    0    0    -1  
@@ -892,49 +904,4 @@ Text Label 12000 4800 0    50   ~ 0
 V_TUNE
 Text Label 14150 4800 0    50   ~ 0
 RF_OUT
-$Comp
-L Connector_Generic:Conn_01x04 J102
-U 1 1 61A80465
-P 3300 5100
-F 0 "J102" H 3300 5350 50  0000 C CNN
-F 1 "Conn_01x04" H 3218 5326 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3300 5100 50  0001 C CNN
-F 3 "~" H 3300 5100 50  0001 C CNN
-F 4 "732-5316-ND" H 3300 5100 50  0001 C CNN "Digi-Key PN"
-	1    3300 5100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 5000 3650 5000
-Wire Wire Line
-	3650 5000 3650 4750
-Wire Wire Line
-	3650 4750 3900 4750
-Wire Wire Line
-	3900 4750 3900 4850
-$Comp
-L power:GND #PWR0121
-U 1 1 61C4A94D
-P 3900 4850
-F 0 "#PWR0121" H 3900 4600 50  0001 C CNN
-F 1 "GND" H 3905 4677 50  0000 C CNN
-F 2 "" H 3900 4850 50  0001 C CNN
-F 3 "" H 3900 4850 50  0001 C CNN
-	1    3900 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C111
-U 1 1 61C549BC
-P 5900 5800
-F 0 "C111" V 5650 5750 50  0000 L CNN
-F 1 "1.3nF" V 5750 5750 50  0000 L CNN
-F 2 "EE514 Board:C_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5938 5650 50  0001 C CNN
-F 3 "~" H 5900 5800 50  0001 C CNN
-F 4 "399-15364-1-ND" H 5900 5800 50  0001 C CNN "Digi-Key PN"
-	1    5900 5800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6050 5800 6450 5800
 $EndSCHEMATC

@@ -544,7 +544,7 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	12250 5850 12350 5850
 Text Notes 12450 5400 0    50   ~ 0
-VCO input capacitance
+VCO input capacitance ~~5pF
 $Sheet
 S 12500 4500 950  600 
 U 61ADF09C
